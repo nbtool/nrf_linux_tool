@@ -7,23 +7,30 @@ You can directly write、build、install APP(HEX/BIN) without using IDE.
 
 #### 2. How to use
 
-Enter the root directory, run the run.sh
+If it is the first time to compile, It is recommended to run goto tool directly, and then run the './run.sh tool' to download gcc、SDK、build-tools etc.
 
-If it is the first time to compile, It is recommended to run `make tool` to download platform、SDK、build-tools etc.
+	cd ./tool
+	./run.sh tool
 
-	cd ./example/HelloAndroid
-	make tool
+Build the project(for example:app_nrf51_hids_keyboard):
 
-Build the project:
+	cd ./app/app_nrf51_hids_keyboard/build
+    make clean
+    make all
 
-	make build
-	
 Install the APP:
 
-	make program
+    make erase
+    make flash_flash_softdevice
+    make flash
 	
 
-**more：**[https://www.cnblogs.com/zjutlitao/p/9672376.html](https://www.cnblogs.com/zjutlitao/p/9672376.html)
+**more：**[https://www.cnblogs.com/zjutlitao/p/9614787.html](https://www.cnblogs.com/zjutlitao/p/9614787.html)
 
 
 #### 3. Demos
+
+- app_nrf51_peri_blinky
+- app_nrf51_ble_hrs
+- app_nrf51_hids_mouse
+- app_nrf51_hids_keyboard
