@@ -1,0 +1,524 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ADC_CONFIG_DEBUG_COLOR	./build/sdk_config.h	286;"	d
+ADC_CONFIG_INFO_COLOR	./build/sdk_config.h	270;"	d
+ADC_CONFIG_IRQ_PRIORITY	./build/sdk_config.h	236;"	d
+ADC_CONFIG_LOG_ENABLED	./build/sdk_config.h	242;"	d
+ADC_CONFIG_LOG_LEVEL	./build/sdk_config.h	254;"	d
+ADC_ENABLED	./build/sdk_config.h	223;"	d
+APP_ADV_FAST_INTERVAL	./main.c	122;"	d	file:
+APP_ADV_FAST_TIMEOUT	./main.c	124;"	d	file:
+APP_ADV_SLOW_INTERVAL	./main.c	123;"	d	file:
+APP_ADV_SLOW_TIMEOUT	./main.c	125;"	d	file:
+APP_FEATURE_NOT_SUPPORTED	./main.c	153;"	d	file:
+APP_GPIOTE_ENABLED	./build/sdk_config.h	2932;"	d
+APP_PWM_ENABLED	./build/sdk_config.h	2939;"	d
+APP_SCHEDULER_ENABLED	./build/sdk_config.h	2945;"	d
+APP_SCHEDULER_WITH_PAUSE	./build/sdk_config.h	2952;"	d
+APP_SCHEDULER_WITH_PROFILER	./build/sdk_config.h	2959;"	d
+APP_TIMER_ENABLED	./build/sdk_config.h	2968;"	d
+APP_TIMER_KEEPS_RTC_ACTIVE	./build/sdk_config.h	2985;"	d
+APP_TIMER_OP_QUEUE_SIZE	./main.c	110;"	d	file:
+APP_TIMER_PRESCALER	./main.c	109;"	d	file:
+APP_TIMER_WITH_PROFILER	./build/sdk_config.h	2975;"	d
+APP_TWI_ENABLED	./build/sdk_config.h	2995;"	d
+APP_UART_DRIVER_INSTANCE	./build/sdk_config.h	3009;"	d
+APP_UART_ENABLED	./build/sdk_config.h	3001;"	d
+APP_USBD_CDC_ACM_LOG_ENABLED	./build/sdk_config.h	3443;"	d
+APP_USBD_CLASS_AUDIO_ENABLED	./build/sdk_config.h	3019;"	d
+APP_USBD_CLASS_CDC_ACM_ENABLED	./build/sdk_config.h	3436;"	d
+APP_USBD_CLASS_HID_ENABLED	./build/sdk_config.h	3026;"	d
+APP_USBD_CLASS_MSC_ENABLED	./build/sdk_config.h	3456;"	d
+APP_USBD_DEVICE_VER_MAJOR	./build/sdk_config.h	325;"	d
+APP_USBD_DEVICE_VER_MINOR	./build/sdk_config.h	334;"	d
+APP_USBD_ENABLED	./build/sdk_config.h	298;"	d
+APP_USBD_HID_GENERIC_ENABLED	./build/sdk_config.h	3033;"	d
+APP_USBD_HID_KBD_ENABLED	./build/sdk_config.h	3040;"	d
+APP_USBD_HID_MOUSE_ENABLED	./build/sdk_config.h	3047;"	d
+APP_USBD_MSC_CLASS_LOG_ENABLED	./build/sdk_config.h	3463;"	d
+APP_USBD_PID	./build/sdk_config.h	316;"	d
+APP_USBD_VID	./build/sdk_config.h	307;"	d
+BASE_USB_HID_SPEC_VERSION	./main.c	157;"	d	file:
+BATTERY_LEVEL_INCREMENT	./main.c	115;"	d	file:
+BATTERY_LEVEL_MEAS_INTERVAL	./main.c	112;"	d	file:
+BLE_ADVERTISING_ENABLED	./build/sdk_config.h	16;"	d
+BLE_ANCS_C_ENABLED	./build/sdk_config.h	57;"	d
+BLE_ANS_C_ENABLED	./build/sdk_config.h	64;"	d
+BLE_BAS_C_ENABLED	./build/sdk_config.h	71;"	d
+BLE_BAS_ENABLED	./build/sdk_config.h	78;"	d
+BLE_CSCS_ENABLED	./build/sdk_config.h	85;"	d
+BLE_CTS_C_ENABLED	./build/sdk_config.h	92;"	d
+BLE_DIRECTED_ADV	./main.c	/^    BLE_DIRECTED_ADV,       \/**< Direct advertising to the latest central. *\/$/;"	e	enum:__anon1	file:
+BLE_DIS_ENABLED	./build/sdk_config.h	99;"	d
+BLE_DTM_ENABLED	./build/sdk_config.h	23;"	d
+BLE_FAST_ADV	./main.c	/^    BLE_FAST_ADV,           \/**< Fast advertising running. *\/$/;"	e	enum:__anon1	file:
+BLE_FAST_ADV_WHITELIST	./main.c	/^    BLE_FAST_ADV_WHITELIST, \/**< Advertising with whitelist. *\/$/;"	e	enum:__anon1	file:
+BLE_GLS_ENABLED	./build/sdk_config.h	106;"	d
+BLE_HIDS_ENABLED	./build/sdk_config.h	113;"	d
+BLE_HRS_C_ENABLED	./build/sdk_config.h	119;"	d
+BLE_HRS_C_RR_INTERVALS_MAX_CNT	./build/sdk_config.h	124;"	d
+BLE_HRS_ENABLED	./build/sdk_config.h	134;"	d
+BLE_HTS_ENABLED	./build/sdk_config.h	141;"	d
+BLE_IAS_C_ENABLED	./build/sdk_config.h	148;"	d
+BLE_IAS_ENABLED	./build/sdk_config.h	155;"	d
+BLE_LBS_C_ENABLED	./build/sdk_config.h	162;"	d
+BLE_LBS_ENABLED	./build/sdk_config.h	169;"	d
+BLE_LLS_ENABLED	./build/sdk_config.h	176;"	d
+BLE_NO_ADV	./main.c	/^    BLE_NO_ADV,             \/**< No advertising running. *\/$/;"	e	enum:__anon1	file:
+BLE_NUS_C_ENABLED	./build/sdk_config.h	183;"	d
+BLE_NUS_ENABLED	./build/sdk_config.h	190;"	d
+BLE_RACP_ENABLED	./build/sdk_config.h	30;"	d
+BLE_RSCS_C_ENABLED	./build/sdk_config.h	197;"	d
+BLE_RSCS_ENABLED	./build/sdk_config.h	204;"	d
+BLE_SLEEP	./main.c	/^    BLE_SLEEP,              \/**< Go to system-off. *\/$/;"	e	enum:__anon1	file:
+BLE_SLOW_ADV	./main.c	/^    BLE_SLOW_ADV,           \/**< Slow advertising running. *\/$/;"	e	enum:__anon1	file:
+BLE_TPS_ENABLED	./build/sdk_config.h	211;"	d
+BUFFER_ELEMENT_INIT	./main.c	198;"	d	file:
+BUFFER_LIST_EMPTY	./main.c	195;"	d	file:
+BUFFER_LIST_FULL	./main.c	191;"	d	file:
+BUFFER_LIST_INIT	./main.c	182;"	d	file:
+BUTTON_ENABLED	./build/sdk_config.h	3054;"	d
+CENTRAL_LINK_COUNT	./main.c	97;"	d	file:
+CLOCK_CONFIG_DEBUG_COLOR	./build/sdk_config.h	426;"	d
+CLOCK_CONFIG_INFO_COLOR	./build/sdk_config.h	410;"	d
+CLOCK_CONFIG_IRQ_PRIORITY	./build/sdk_config.h	376;"	d
+CLOCK_CONFIG_LF_SRC	./build/sdk_config.h	363;"	d
+CLOCK_CONFIG_LOG_ENABLED	./build/sdk_config.h	382;"	d
+CLOCK_CONFIG_LOG_LEVEL	./build/sdk_config.h	394;"	d
+CLOCK_CONFIG_XTAL_FREQ	./build/sdk_config.h	353;"	d
+CLOCK_ENABLED	./build/sdk_config.h	343;"	d
+COMMON_CONFIG_DEBUG_COLOR	./build/sdk_config.h	1202;"	d
+COMMON_CONFIG_INFO_COLOR	./build/sdk_config.h	1186;"	d
+COMMON_CONFIG_LOG_ENABLED	./build/sdk_config.h	1158;"	d
+COMMON_CONFIG_LOG_LEVEL	./build/sdk_config.h	1170;"	d
+COMP_CONFIG_DEBUG_COLOR	./build/sdk_config.h	567;"	d
+COMP_CONFIG_HYST	./build/sdk_config.h	478;"	d
+COMP_CONFIG_INFO_COLOR	./build/sdk_config.h	551;"	d
+COMP_CONFIG_INPUT	./build/sdk_config.h	504;"	d
+COMP_CONFIG_IRQ_PRIORITY	./build/sdk_config.h	517;"	d
+COMP_CONFIG_ISOURCE	./build/sdk_config.h	489;"	d
+COMP_CONFIG_LOG_ENABLED	./build/sdk_config.h	523;"	d
+COMP_CONFIG_LOG_LEVEL	./build/sdk_config.h	535;"	d
+COMP_CONFIG_MAIN_MODE	./build/sdk_config.h	459;"	d
+COMP_CONFIG_REF	./build/sdk_config.h	450;"	d
+COMP_CONFIG_SPEED_MODE	./build/sdk_config.h	469;"	d
+COMP_ENABLED	./build/sdk_config.h	438;"	d
+CONN_SUP_TIMEOUT	./main.c	131;"	d	file:
+CRC16_ENABLED	./build/sdk_config.h	3061;"	d
+CRC32_ENABLED	./build/sdk_config.h	3068;"	d
+DEAD_BEEF	./main.c	161;"	d	file:
+DEVICE_NAME	./main.c	106;"	d	file:
+ECC_ENABLED	./build/sdk_config.h	3075;"	d
+EGU_ENABLED	./build/sdk_config.h	579;"	d
+FDS_CHUNK_QUEUE_SIZE	./build/sdk_config.h	3091;"	d
+FDS_ENABLED	./build/sdk_config.h	3081;"	d
+FDS_MAX_USERS	./build/sdk_config.h	3096;"	d
+FDS_OP_QUEUE_SIZE	./build/sdk_config.h	3086;"	d
+FDS_VIRTUAL_PAGES	./build/sdk_config.h	3107;"	d
+FDS_VIRTUAL_PAGE_SIZE	./build/sdk_config.h	3120;"	d
+FIRST_CONN_PARAMS_UPDATE_DELAY	./main.c	133;"	d	file:
+FSTORAGE_ENABLED	./build/sdk_config.h	3129;"	d
+FS_MAX_WRITE_SIZE_WORDS	./build/sdk_config.h	3157;"	d
+FS_OP_MAX_RETRIES	./build/sdk_config.h	3147;"	d
+FS_QUEUE_SIZE	./build/sdk_config.h	3139;"	d
+GPIOTE_CONFIG_DEBUG_COLOR	./build/sdk_config.h	709;"	d
+GPIOTE_CONFIG_INFO_COLOR	./build/sdk_config.h	693;"	d
+GPIOTE_CONFIG_IRQ_PRIORITY	./build/sdk_config.h	659;"	d
+GPIOTE_CONFIG_LOG_ENABLED	./build/sdk_config.h	665;"	d
+GPIOTE_CONFIG_LOG_LEVEL	./build/sdk_config.h	677;"	d
+GPIOTE_CONFIG_NUM_OF_LOW_POWER_EVENTS	./build/sdk_config.h	646;"	d
+GPIOTE_ENABLED	./build/sdk_config.h	641;"	d
+HARDFAULT_HANDLER_ENABLED	./build/sdk_config.h	3167;"	d
+HCI_MAX_PACKET_SIZE_IN_BITS	./build/sdk_config.h	3263;"	d
+HCI_MEM_POOL_ENABLED	./build/sdk_config.h	3173;"	d
+HCI_RX_BUF_QUEUE_SIZE	./build/sdk_config.h	3188;"	d
+HCI_RX_BUF_SIZE	./build/sdk_config.h	3183;"	d
+HCI_SLIP_ENABLED	./build/sdk_config.h	3197;"	d
+HCI_TRANSPORT_ENABLED	./build/sdk_config.h	3258;"	d
+HCI_TX_BUF_SIZE	./build/sdk_config.h	3178;"	d
+HCI_UART_BAUDRATE	./build/sdk_config.h	3220;"	d
+HCI_UART_CTS_PIN	./build/sdk_config.h	3249;"	d
+HCI_UART_FLOW_CONTROL	./build/sdk_config.h	3229;"	d
+HCI_UART_RTS_PIN	./build/sdk_config.h	3244;"	d
+HCI_UART_RX_PIN	./build/sdk_config.h	3234;"	d
+HCI_UART_TX_PIN	./build/sdk_config.h	3239;"	d
+I2S_CONFIG_ALIGN	./build/sdk_config.h	781;"	d
+I2S_CONFIG_CHANNELS	./build/sdk_config.h	801;"	d
+I2S_CONFIG_DEBUG_COLOR	./build/sdk_config.h	906;"	d
+I2S_CONFIG_FORMAT	./build/sdk_config.h	772;"	d
+I2S_CONFIG_INFO_COLOR	./build/sdk_config.h	890;"	d
+I2S_CONFIG_IRQ_PRIORITY	./build/sdk_config.h	856;"	d
+I2S_CONFIG_LOG_ENABLED	./build/sdk_config.h	862;"	d
+I2S_CONFIG_LOG_LEVEL	./build/sdk_config.h	874;"	d
+I2S_CONFIG_LRCK_PIN	./build/sdk_config.h	735;"	d
+I2S_CONFIG_MASTER	./build/sdk_config.h	763;"	d
+I2S_CONFIG_MCK_PIN	./build/sdk_config.h	740;"	d
+I2S_CONFIG_MCK_SETUP	./build/sdk_config.h	827;"	d
+I2S_CONFIG_RATIO	./build/sdk_config.h	843;"	d
+I2S_CONFIG_SCK_PIN	./build/sdk_config.h	728;"	d
+I2S_CONFIG_SDIN_PIN	./build/sdk_config.h	754;"	d
+I2S_CONFIG_SDOUT_PIN	./build/sdk_config.h	747;"	d
+I2S_CONFIG_SWIDTH	./build/sdk_config.h	791;"	d
+I2S_ENABLED	./build/sdk_config.h	721;"	d
+INPUT_REPORT_KEYS_INDEX	./main.c	148;"	d	file:
+INPUT_REPORT_KEYS_MAX_LEN	./main.c	159;"	d	file:
+INPUT_REP_REF_ID	./main.c	150;"	d	file:
+KEY_PRESS_BUTTON_ID	./main.c	103;"	d	file:
+KIND	./build/sources.mk	/^KIND := BLE$/;"	m
+LED_SOFTBLINK_ENABLED	./build/sdk_config.h	3273;"	d
+LINKER_SCRIPT	./build/Makefile	/^  LINKER_SCRIPT  := ble_app_gcc_nrf51.ld$/;"	m
+LOW_POWER_PWM_ENABLED	./build/sdk_config.h	3280;"	d
+LPCOMP_CONFIG_DEBUG_COLOR	./build/sdk_config.h	1037;"	d
+LPCOMP_CONFIG_DETECTION	./build/sdk_config.h	952;"	d
+LPCOMP_CONFIG_HYST	./build/sdk_config.h	974;"	d
+LPCOMP_CONFIG_INFO_COLOR	./build/sdk_config.h	1021;"	d
+LPCOMP_CONFIG_INPUT	./build/sdk_config.h	967;"	d
+LPCOMP_CONFIG_IRQ_PRIORITY	./build/sdk_config.h	987;"	d
+LPCOMP_CONFIG_LOG_ENABLED	./build/sdk_config.h	993;"	d
+LPCOMP_CONFIG_LOG_LEVEL	./build/sdk_config.h	1005;"	d
+LPCOMP_CONFIG_REFERENCE	./build/sdk_config.h	942;"	d
+LPCOMP_ENABLED	./build/sdk_config.h	918;"	d
+MANUFACTURER_NAME	./main.c	107;"	d	file:
+MAX_BATTERY_LEVEL	./main.c	114;"	d	file:
+MAX_BUFFER_ENTRIES	./main.c	155;"	d	file:
+MAX_CONN_INTERVAL	./main.c	129;"	d	file:
+MAX_CONN_PARAMS_UPDATE_COUNT	./main.c	135;"	d	file:
+MAX_KEYS_IN_ONE_REPORT	./main.c	175;"	d	file:
+MEASUREMENT_PERIOD	./build/sdk_config.h	3409;"	d
+MEMORY_MANAGER_LARGE_BLOCK_COUNT	./build/sdk_config.h	3321;"	d
+MEMORY_MANAGER_LARGE_BLOCK_SIZE	./build/sdk_config.h	3328;"	d
+MEMORY_MANAGER_MEDIUM_BLOCK_COUNT	./build/sdk_config.h	3307;"	d
+MEMORY_MANAGER_MEDIUM_BLOCK_SIZE	./build/sdk_config.h	3314;"	d
+MEMORY_MANAGER_SMALL_BLOCK_COUNT	./build/sdk_config.h	3293;"	d
+MEMORY_MANAGER_SMALL_BLOCK_SIZE	./build/sdk_config.h	3300;"	d
+MEM_MANAGER_DISABLE_API_PARAM_CHECK	./build/sdk_config.h	3342;"	d
+MEM_MANAGER_ENABLED	./build/sdk_config.h	3286;"	d
+MEM_MANAGER_ENABLE_LOGS	./build/sdk_config.h	3335;"	d
+MIN_BATTERY_LEVEL	./main.c	113;"	d	file:
+MIN_CONN_INTERVAL	./main.c	128;"	d	file:
+MODIFIER_KEY_POS	./main.c	171;"	d	file:
+NEXT_CONN_PARAMS_UPDATE_DELAY	./main.c	134;"	d	file:
+NRF_BLE_MAX_MTU_SIZE	./main.c	94;"	d	file:
+NRF_BLE_QWR_ENABLED	./build/sdk_config.h	37;"	d
+NRF_CSENSE_ENABLED	./build/sdk_config.h	3351;"	d
+NRF_CSENSE_MAX_PADS_NUMBER	./build/sdk_config.h	3371;"	d
+NRF_CSENSE_MAX_VALUE	./build/sdk_config.h	3376;"	d
+NRF_CSENSE_MIN_PAD_VALUE	./build/sdk_config.h	3366;"	d
+NRF_CSENSE_OUTPUT_PIN	./build/sdk_config.h	3383;"	d
+NRF_CSENSE_PAD_DEVIATION	./build/sdk_config.h	3361;"	d
+NRF_CSENSE_PAD_HYSTERESIS	./build/sdk_config.h	3356;"	d
+NRF_DRV_CSENSE_ENABLED	./build/sdk_config.h	3392;"	d
+NRF_DRV_USBD_DMASCHEDULER_MODE	./build/sdk_config.h	2816;"	d
+NRF_JLINK_PROG	./build/sources.mk	/^NRF_JLINK_PROG = ..\/..\/..\/tool\/nRF5x-Command-Line-Tools_9_7_3\/nrfjprog\/nrfjprog $/;"	m
+NRF_LOG_BACKEND_MAX_STRING_LENGTH	./build/sdk_config.h	3587;"	d
+NRF_LOG_BACKEND_RTT_OUTPUT_BUFFER_SIZE	./build/sdk_config.h	3678;"	d
+NRF_LOG_BACKEND_SERIAL_UART_BAUDRATE	./build/sdk_config.h	3623;"	d
+NRF_LOG_BACKEND_SERIAL_UART_CTS_PIN	./build/sdk_config.h	3643;"	d
+NRF_LOG_BACKEND_SERIAL_UART_FLOW_CONTROL	./build/sdk_config.h	3652;"	d
+NRF_LOG_BACKEND_SERIAL_UART_RTS_PIN	./build/sdk_config.h	3638;"	d
+NRF_LOG_BACKEND_SERIAL_UART_RX_PIN	./build/sdk_config.h	3633;"	d
+NRF_LOG_BACKEND_SERIAL_UART_TX_PIN	./build/sdk_config.h	3628;"	d
+NRF_LOG_BACKEND_SERIAL_USES_RTT	./build/sdk_config.h	3669;"	d
+NRF_LOG_BACKEND_SERIAL_USES_UART	./build/sdk_config.h	3600;"	d
+NRF_LOG_BACKEND_UART_INSTANCE	./build/sdk_config.h	3660;"	d
+NRF_LOG_COLOR_DEFAULT	./build/sdk_config.h	3500;"	d
+NRF_LOG_DEFAULT_LEVEL	./build/sdk_config.h	3547;"	d
+NRF_LOG_DEFERRED	./build/sdk_config.h	3555;"	d
+NRF_LOG_DEFERRED_BUFSIZE	./build/sdk_config.h	3562;"	d
+NRF_LOG_ENABLED	./build/sdk_config.h	3478;"	d
+NRF_LOG_ERROR_COLOR	./build/sdk_config.h	3516;"	d
+NRF_LOG_MODULE_NAME	./main.c	85;"	d	file:
+NRF_LOG_TIMESTAMP_DIGITS	./build/sdk_config.h	3594;"	d
+NRF_LOG_USES_COLORS	./build/sdk_config.h	3484;"	d
+NRF_LOG_USES_TIMESTAMP	./build/sdk_config.h	3574;"	d
+NRF_LOG_WARNING_COLOR	./build/sdk_config.h	3532;"	d
+NRF_MAXIMUM_LATENCY_US	./build/sdk_config.h	1787;"	d
+NRF_QUEUE_ENABLED	./build/sdk_config.h	3419;"	d
+NRF_USBD_DRV_LOG_ENABLED	./build/sdk_config.h	2823;"	d
+OUTPUT_DIRECTORY	./build/Makefile	/^OUTPUT_DIRECTORY := _build$/;"	m
+OUTPUT_REPORT_BIT_MASK_CAPS_LOCK	./main.c	149;"	d	file:
+OUTPUT_REPORT_INDEX	./main.c	146;"	d	file:
+OUTPUT_REPORT_MAX_LEN	./main.c	147;"	d	file:
+OUTPUT_REP_REF_ID	./main.c	151;"	d	file:
+PDM_CONFIG_CLOCK_FREQ	./build/sdk_config.h	1077;"	d
+PDM_CONFIG_DEBUG_COLOR	./build/sdk_config.h	1140;"	d
+PDM_CONFIG_EDGE	./build/sdk_config.h	1067;"	d
+PDM_CONFIG_INFO_COLOR	./build/sdk_config.h	1124;"	d
+PDM_CONFIG_IRQ_PRIORITY	./build/sdk_config.h	1090;"	d
+PDM_CONFIG_LOG_ENABLED	./build/sdk_config.h	1096;"	d
+PDM_CONFIG_LOG_LEVEL	./build/sdk_config.h	1108;"	d
+PDM_CONFIG_MODE	./build/sdk_config.h	1058;"	d
+PDM_ENABLED	./build/sdk_config.h	1049;"	d
+PEER_MANAGER_ENABLED	./build/sdk_config.h	44;"	d
+PERIPHERAL_LINK_COUNT	./main.c	98;"	d	file:
+PERIPHERAL_RESOURCE_SHARING_ENABLED	./build/sdk_config.h	1152;"	d
+PNP_ID_PRODUCT_ID	./main.c	119;"	d	file:
+PNP_ID_PRODUCT_VERSION	./main.c	120;"	d	file:
+PNP_ID_VENDOR_ID	./main.c	118;"	d	file:
+PNP_ID_VENDOR_ID_SOURCE	./main.c	117;"	d	file:
+POWER_CONFIG_DEFAULT_DCDCEN	./build/sdk_config.h	1236;"	d
+POWER_CONFIG_DEFAULT_DCDCENHV	./build/sdk_config.h	1245;"	d
+POWER_CONFIG_IRQ_PRIORITY	./build/sdk_config.h	1227;"	d
+POWER_ENABLED	./build/sdk_config.h	1214;"	d
+PPI_CONFIG_DEBUG_COLOR	./build/sdk_config.h	1304;"	d
+PPI_CONFIG_INFO_COLOR	./build/sdk_config.h	1288;"	d
+PPI_CONFIG_LOG_ENABLED	./build/sdk_config.h	1260;"	d
+PPI_CONFIG_LOG_LEVEL	./build/sdk_config.h	1272;"	d
+PPI_ENABLED	./build/sdk_config.h	1254;"	d
+PROJECT_NAME	./build/Makefile	/^PROJECT_NAME     := blinky_pca10028$/;"	m
+PROJ_DIR	./build/Makefile	/^PROJ_DIR := ..$/;"	m
+PWM0_ENABLED	./build/sdk_config.h	1417;"	d
+PWM1_ENABLED	./build/sdk_config.h	1424;"	d
+PWM2_ENABLED	./build/sdk_config.h	1431;"	d
+PWM_CONFIG_DEBUG_COLOR	./build/sdk_config.h	1481;"	d
+PWM_CONFIG_INFO_COLOR	./build/sdk_config.h	1465;"	d
+PWM_CONFIG_LOG_ENABLED	./build/sdk_config.h	1437;"	d
+PWM_CONFIG_LOG_LEVEL	./build/sdk_config.h	1449;"	d
+PWM_DEFAULT_CONFIG_BASE_CLOCK	./build/sdk_config.h	1359;"	d
+PWM_DEFAULT_CONFIG_COUNT_MODE	./build/sdk_config.h	1368;"	d
+PWM_DEFAULT_CONFIG_IRQ_PRIORITY	./build/sdk_config.h	1410;"	d
+PWM_DEFAULT_CONFIG_LOAD_MODE	./build/sdk_config.h	1384;"	d
+PWM_DEFAULT_CONFIG_OUT0_PIN	./build/sdk_config.h	1323;"	d
+PWM_DEFAULT_CONFIG_OUT1_PIN	./build/sdk_config.h	1330;"	d
+PWM_DEFAULT_CONFIG_OUT2_PIN	./build/sdk_config.h	1337;"	d
+PWM_DEFAULT_CONFIG_OUT3_PIN	./build/sdk_config.h	1344;"	d
+PWM_DEFAULT_CONFIG_STEP_MODE	./build/sdk_config.h	1393;"	d
+PWM_DEFAULT_CONFIG_TOP_VALUE	./build/sdk_config.h	1373;"	d
+PWM_ENABLED	./build/sdk_config.h	1316;"	d
+QDEC_CONFIG_DBFEN	./build/sdk_config.h	1565;"	d
+QDEC_CONFIG_DEBUG_COLOR	./build/sdk_config.h	1635;"	d
+QDEC_CONFIG_INFO_COLOR	./build/sdk_config.h	1619;"	d
+QDEC_CONFIG_IRQ_PRIORITY	./build/sdk_config.h	1585;"	d
+QDEC_CONFIG_LEDPOL	./build/sdk_config.h	1558;"	d
+QDEC_CONFIG_LEDPRE	./build/sdk_config.h	1549;"	d
+QDEC_CONFIG_LOG_ENABLED	./build/sdk_config.h	1591;"	d
+QDEC_CONFIG_LOG_LEVEL	./build/sdk_config.h	1603;"	d
+QDEC_CONFIG_PIO_A	./build/sdk_config.h	1530;"	d
+QDEC_CONFIG_PIO_B	./build/sdk_config.h	1537;"	d
+QDEC_CONFIG_PIO_LED	./build/sdk_config.h	1544;"	d
+QDEC_CONFIG_REPORTPER	./build/sdk_config.h	1508;"	d
+QDEC_CONFIG_SAMPLEPER	./build/sdk_config.h	1523;"	d
+QDEC_CONFIG_SAMPLE_INTEN	./build/sdk_config.h	1572;"	d
+QDEC_ENABLED	./build/sdk_config.h	1493;"	d
+RNG_CONFIG_DEBUG_COLOR	./build/sdk_config.h	1722;"	d
+RNG_CONFIG_ERROR_CORRECTION	./build/sdk_config.h	1654;"	d
+RNG_CONFIG_INFO_COLOR	./build/sdk_config.h	1706;"	d
+RNG_CONFIG_IRQ_PRIORITY	./build/sdk_config.h	1672;"	d
+RNG_CONFIG_LOG_ENABLED	./build/sdk_config.h	1678;"	d
+RNG_CONFIG_LOG_LEVEL	./build/sdk_config.h	1690;"	d
+RNG_CONFIG_POOL_SIZE	./build/sdk_config.h	1659;"	d
+RNG_ENABLED	./build/sdk_config.h	1647;"	d
+RTC0_ENABLED	./build/sdk_config.h	1768;"	d
+RTC1_ENABLED	./build/sdk_config.h	1775;"	d
+RTC2_ENABLED	./build/sdk_config.h	1782;"	d
+RTC_CONFIG_DEBUG_COLOR	./build/sdk_config.h	1837;"	d
+RTC_CONFIG_INFO_COLOR	./build/sdk_config.h	1821;"	d
+RTC_CONFIG_LOG_ENABLED	./build/sdk_config.h	1793;"	d
+RTC_CONFIG_LOG_LEVEL	./build/sdk_config.h	1805;"	d
+RTC_DEFAULT_CONFIG_FREQUENCY	./build/sdk_config.h	1741;"	d
+RTC_DEFAULT_CONFIG_IRQ_PRIORITY	./build/sdk_config.h	1761;"	d
+RTC_DEFAULT_CONFIG_RELIABLE	./build/sdk_config.h	1748;"	d
+RTC_ENABLED	./build/sdk_config.h	1734;"	d
+SAADC_CONFIG_DEBUG_COLOR	./build/sdk_config.h	1946;"	d
+SAADC_CONFIG_INFO_COLOR	./build/sdk_config.h	1930;"	d
+SAADC_CONFIG_IRQ_PRIORITY	./build/sdk_config.h	1896;"	d
+SAADC_CONFIG_LOG_ENABLED	./build/sdk_config.h	1902;"	d
+SAADC_CONFIG_LOG_LEVEL	./build/sdk_config.h	1914;"	d
+SAADC_CONFIG_LP_MODE	./build/sdk_config.h	1883;"	d
+SAADC_CONFIG_OVERSAMPLE	./build/sdk_config.h	1876;"	d
+SAADC_CONFIG_RESOLUTION	./build/sdk_config.h	1860;"	d
+SAADC_ENABLED	./build/sdk_config.h	1849;"	d
+SCAN_CODE_POS	./main.c	172;"	d	file:
+SCHED_MAX_EVENT_DATA_SIZE	./main.c	163;"	d	file:
+SCHED_QUEUE_SIZE	./main.c	166;"	d	file:
+SCHED_QUEUE_SIZE	./main.c	168;"	d	file:
+SDK_CONFIG_H	./build/sdk_config.h	4;"	d
+SDK_ROOT	./build/Makefile	/^SDK_ROOT := ..\/..\/..\/sdk\/nRF5_SDK_12.3.0_d7731ad$/;"	m
+SEC_PARAM_BOND	./main.c	137;"	d	file:
+SEC_PARAM_IO_CAPABILITIES	./main.c	141;"	d	file:
+SEC_PARAM_KEYPRESS	./main.c	140;"	d	file:
+SEC_PARAM_LESC	./main.c	139;"	d	file:
+SEC_PARAM_MAX_KEY_SIZE	./main.c	144;"	d	file:
+SEC_PARAM_MIN_KEY_SIZE	./main.c	143;"	d	file:
+SEC_PARAM_MITM	./main.c	138;"	d	file:
+SEC_PARAM_OOB	./main.c	142;"	d	file:
+SEGGER_RTT_CONFIG_BUFFER_SIZE_DOWN	./build/sdk_config.h	3708;"	d
+SEGGER_RTT_CONFIG_BUFFER_SIZE_UP	./build/sdk_config.h	3698;"	d
+SEGGER_RTT_CONFIG_MAX_NUM_DOWN_BUFFERS	./build/sdk_config.h	3713;"	d
+SEGGER_RTT_CONFIG_MAX_NUM_UP_BUFFERS	./build/sdk_config.h	3703;"	d
+SHIFT_BUTTON_ID	./main.c	104;"	d	file:
+SHIFT_KEY_CODE	./main.c	173;"	d	file:
+SLAVE_LATENCY	./main.c	130;"	d	file:
+SLIP_ENABLED	./build/sdk_config.h	3426;"	d
+SPI0_DEFAULT_FREQUENCY	./build/sdk_config.h	2128;"	d
+SPI0_ENABLED	./build/sdk_config.h	2107;"	d
+SPI0_USE_EASY_DMA	./build/sdk_config.h	2114;"	d
+SPI1_DEFAULT_FREQUENCY	./build/sdk_config.h	2158;"	d
+SPI1_ENABLED	./build/sdk_config.h	2137;"	d
+SPI1_USE_EASY_DMA	./build/sdk_config.h	2144;"	d
+SPI2_DEFAULT_FREQUENCY	./build/sdk_config.h	2181;"	d
+SPI2_ENABLED	./build/sdk_config.h	2167;"	d
+SPI2_USE_EASY_DMA	./build/sdk_config.h	2174;"	d
+SPIS0_ENABLED	./build/sdk_config.h	2012;"	d
+SPIS1_ENABLED	./build/sdk_config.h	2019;"	d
+SPIS2_ENABLED	./build/sdk_config.h	2026;"	d
+SPIS_CONFIG_DEBUG_COLOR	./build/sdk_config.h	2076;"	d
+SPIS_CONFIG_INFO_COLOR	./build/sdk_config.h	2060;"	d
+SPIS_CONFIG_LOG_ENABLED	./build/sdk_config.h	2032;"	d
+SPIS_CONFIG_LOG_LEVEL	./build/sdk_config.h	2044;"	d
+SPIS_DEFAULT_BIT_ORDER	./build/sdk_config.h	1991;"	d
+SPIS_DEFAULT_CONFIG_IRQ_PRIORITY	./build/sdk_config.h	1971;"	d
+SPIS_DEFAULT_DEF	./build/sdk_config.h	1998;"	d
+SPIS_DEFAULT_MODE	./build/sdk_config.h	1982;"	d
+SPIS_DEFAULT_ORC	./build/sdk_config.h	2005;"	d
+SPIS_ENABLED	./build/sdk_config.h	1958;"	d
+SPI_CONFIG_DEBUG_COLOR	./build/sdk_config.h	2234;"	d
+SPI_CONFIG_INFO_COLOR	./build/sdk_config.h	2218;"	d
+SPI_CONFIG_LOG_ENABLED	./build/sdk_config.h	2190;"	d
+SPI_CONFIG_LOG_LEVEL	./build/sdk_config.h	2202;"	d
+SPI_DEFAULT_CONFIG_IRQ_PRIORITY	./build/sdk_config.h	2101;"	d
+SPI_ENABLED	./build/sdk_config.h	2088;"	d
+SWI_CONFIG_DEBUG_COLOR	./build/sdk_config.h	629;"	d
+SWI_CONFIG_INFO_COLOR	./build/sdk_config.h	613;"	d
+SWI_CONFIG_LOG_ENABLED	./build/sdk_config.h	585;"	d
+SWI_CONFIG_LOG_LEVEL	./build/sdk_config.h	597;"	d
+TARGETS	./build/Makefile	/^TARGETS          := nrf51422_xxac$/;"	m
+TEMPLATE_PATH	./build/Makefile	/^TEMPLATE_PATH := $(SDK_ROOT)\/components\/toolchain\/gcc$/;"	m
+TIMER0_ENABLED	./build/sdk_config.h	2303;"	d
+TIMER0_FOR_CSENSE	./build/sdk_config.h	3397;"	d
+TIMER1_ENABLED	./build/sdk_config.h	2310;"	d
+TIMER1_FOR_CSENSE	./build/sdk_config.h	3402;"	d
+TIMER2_ENABLED	./build/sdk_config.h	2317;"	d
+TIMER3_ENABLED	./build/sdk_config.h	2324;"	d
+TIMER4_ENABLED	./build/sdk_config.h	2331;"	d
+TIMER_CONFIG_DEBUG_COLOR	./build/sdk_config.h	2381;"	d
+TIMER_CONFIG_INFO_COLOR	./build/sdk_config.h	2365;"	d
+TIMER_CONFIG_LOG_ENABLED	./build/sdk_config.h	2337;"	d
+TIMER_CONFIG_LOG_LEVEL	./build/sdk_config.h	2349;"	d
+TIMER_DEFAULT_CONFIG_BIT_WIDTH	./build/sdk_config.h	2283;"	d
+TIMER_DEFAULT_CONFIG_FREQUENCY	./build/sdk_config.h	2263;"	d
+TIMER_DEFAULT_CONFIG_IRQ_PRIORITY	./build/sdk_config.h	2296;"	d
+TIMER_DEFAULT_CONFIG_MODE	./build/sdk_config.h	2272;"	d
+TIMER_ENABLED	./build/sdk_config.h	2246;"	d
+TWI0_ENABLED	./build/sdk_config.h	2573;"	d
+TWI0_USE_EASY_DMA	./build/sdk_config.h	2580;"	d
+TWI1_ENABLED	./build/sdk_config.h	2589;"	d
+TWI1_USE_EASY_DMA	./build/sdk_config.h	2596;"	d
+TWIS0_ENABLED	./build/sdk_config.h	2443;"	d
+TWIS1_ENABLED	./build/sdk_config.h	2450;"	d
+TWIS_ASSUME_INIT_AFTER_RESET_ONLY	./build/sdk_config.h	2459;"	d
+TWIS_CONFIG_DEBUG_COLOR	./build/sdk_config.h	2518;"	d
+TWIS_CONFIG_INFO_COLOR	./build/sdk_config.h	2502;"	d
+TWIS_CONFIG_LOG_ENABLED	./build/sdk_config.h	2474;"	d
+TWIS_CONFIG_LOG_LEVEL	./build/sdk_config.h	2486;"	d
+TWIS_DEFAULT_CONFIG_ADDR0	./build/sdk_config.h	2398;"	d
+TWIS_DEFAULT_CONFIG_ADDR1	./build/sdk_config.h	2403;"	d
+TWIS_DEFAULT_CONFIG_IRQ_PRIORITY	./build/sdk_config.h	2436;"	d
+TWIS_DEFAULT_CONFIG_SCL_PULL	./build/sdk_config.h	2413;"	d
+TWIS_DEFAULT_CONFIG_SDA_PULL	./build/sdk_config.h	2423;"	d
+TWIS_ENABLED	./build/sdk_config.h	2393;"	d
+TWIS_NO_SYNC_MODE	./build/sdk_config.h	2468;"	d
+TWI_CONFIG_DEBUG_COLOR	./build/sdk_config.h	2649;"	d
+TWI_CONFIG_INFO_COLOR	./build/sdk_config.h	2633;"	d
+TWI_CONFIG_LOG_ENABLED	./build/sdk_config.h	2605;"	d
+TWI_CONFIG_LOG_LEVEL	./build/sdk_config.h	2617;"	d
+TWI_DEFAULT_CONFIG_CLR_BUS_INIT	./build/sdk_config.h	2547;"	d
+TWI_DEFAULT_CONFIG_FREQUENCY	./build/sdk_config.h	2540;"	d
+TWI_DEFAULT_CONFIG_HOLD_BUS_UNINIT	./build/sdk_config.h	2554;"	d
+TWI_DEFAULT_CONFIG_IRQ_PRIORITY	./build/sdk_config.h	2567;"	d
+TWI_ENABLED	./build/sdk_config.h	2530;"	d
+UART0_CONFIG_USE_EASY_DMA	./build/sdk_config.h	2742;"	d
+UART0_ENABLED	./build/sdk_config.h	2735;"	d
+UART_CONFIG_DEBUG_COLOR	./build/sdk_config.h	2795;"	d
+UART_CONFIG_INFO_COLOR	./build/sdk_config.h	2779;"	d
+UART_CONFIG_LOG_ENABLED	./build/sdk_config.h	2751;"	d
+UART_CONFIG_LOG_LEVEL	./build/sdk_config.h	2763;"	d
+UART_DEFAULT_CONFIG_BAUDRATE	./build/sdk_config.h	2702;"	d
+UART_DEFAULT_CONFIG_HWFC	./build/sdk_config.h	2670;"	d
+UART_DEFAULT_CONFIG_IRQ_PRIORITY	./build/sdk_config.h	2715;"	d
+UART_DEFAULT_CONFIG_PARITY	./build/sdk_config.h	2679;"	d
+UART_EASY_DMA_SUPPORT	./build/sdk_config.h	2722;"	d
+UART_ENABLED	./build/sdk_config.h	2661;"	d
+UART_LEGACY_SUPPORT	./build/sdk_config.h	2729;"	d
+UART_RX_BUF_SIZE	./main.c	101;"	d	file:
+UART_TX_BUF_SIZE	./main.c	100;"	d	file:
+USBD_ENABLED	./build/sdk_config.h	2807;"	d
+WDT_CONFIG_BEHAVIOUR	./build/sdk_config.h	2843;"	d
+WDT_CONFIG_DEBUG_COLOR	./build/sdk_config.h	2913;"	d
+WDT_CONFIG_INFO_COLOR	./build/sdk_config.h	2897;"	d
+WDT_CONFIG_IRQ_PRIORITY	./build/sdk_config.h	2863;"	d
+WDT_CONFIG_LOG_ENABLED	./build/sdk_config.h	2869;"	d
+WDT_CONFIG_LOG_LEVEL	./build/sdk_config.h	2881;"	d
+WDT_CONFIG_RELOAD_VALUE	./build/sdk_config.h	2850;"	d
+WDT_ENABLED	./build/sdk_config.h	2832;"	d
+advertising_init	./main.c	/^static void advertising_init(void)$/;"	f	file:
+advertising_start	./main.c	/^static void advertising_start(void)$/;"	f	file:
+assert_nrf_callback	./main.c	/^void assert_nrf_callback(uint16_t line_num, const uint8_t * p_file_name)$/;"	f
+bas_init	./main.c	/^static void bas_init(void)$/;"	f	file:
+battery_level_meas_timeout_handler	./main.c	/^static void battery_level_meas_timeout_handler(void * p_context)$/;"	f	file:
+battery_level_update	./main.c	/^static void battery_level_update(void)$/;"	f	file:
+ble_advertising_error_handler	./main.c	/^static void ble_advertising_error_handler(uint32_t nrf_error)$/;"	f	file:
+ble_advertising_mode_t	./main.c	/^} ble_advertising_mode_t;$/;"	t	typeref:enum:__anon1	file:
+ble_evt_dispatch	./main.c	/^static void ble_evt_dispatch(ble_evt_t * p_ble_evt)$/;"	f	file:
+ble_stack_init	./main.c	/^static void ble_stack_init(void)$/;"	f	file:
+bsp_event_handler	./main.c	/^static void bsp_event_handler(bsp_event_t event)$/;"	f	file:
+buffer	./main.c	/^    buffer_entry_t buffer[MAX_BUFFER_ENTRIES]; \/**< Maximum number of entries that can enqueued in the list *\/$/;"	m	struct:__anon2	file:
+buffer_dequeue	./main.c	/^static uint32_t buffer_dequeue(bool tx_flag)$/;"	f	file:
+buffer_enqueue	./main.c	/^static uint32_t buffer_enqueue(ble_hids_t * p_hids,$/;"	f	file:
+buffer_entry_t	./main.c	/^} buffer_entry_t;$/;"	t	typeref:struct:hid_key_buffer	file:
+buffer_init	./main.c	/^static void buffer_init(void)$/;"	f	file:
+buffer_list	./main.c	/^static buffer_list_t buffer_list;$/;"	v	file:
+buffer_list_t	./main.c	/^} buffer_list_t;$/;"	t	typeref:struct:__anon2	file:
+buttons_leds_init	./main.c	/^static void buttons_leds_init(bool * p_erase_bonds)$/;"	f	file:
+conn_params_error_handler	./main.c	/^static void conn_params_error_handler(uint32_t nrf_error)$/;"	f	file:
+conn_params_init	./main.c	/^static void conn_params_init(void)$/;"	f	file:
+count	./main.c	/^    uint8_t        count;                      \/**< Number of elements in the list *\/$/;"	m	struct:__anon2	file:
+data_len	./main.c	/^    uint8_t      data_len;    \/**< Total length of data *\/$/;"	m	struct:hid_key_buffer	file:
+data_offset	./main.c	/^    uint8_t      data_offset; \/**< Max Data that can be buffered for all entries *\/$/;"	m	struct:hid_key_buffer	file:
+dis_init	./main.c	/^static void dis_init(void)$/;"	f	file:
+gap_params_init	./main.c	/^static void gap_params_init(void)$/;"	f	file:
+hid_key_buffer	./main.c	/^typedef struct hid_key_buffer$/;"	s	file:
+hids_init	./main.c	/^static void hids_init(void)$/;"	f	file:
+keys_send	./main.c	/^static void keys_send(uint8_t key_pattern_len, uint8_t * p_key_pattern)$/;"	f	file:
+m_adv_uuids	./main.c	/^static ble_uuid_t m_adv_uuids[] = {{BLE_UUID_HUMAN_INTERFACE_DEVICE_SERVICE, BLE_UUID_TYPE_BLE}};$/;"	v	file:
+m_bas	./main.c	/^static ble_bas_t  m_bas;                                    \/**< Structure used to identify the battery service. *\/$/;"	v	file:
+m_battery_sim_cfg	./main.c	/^static sensorsim_cfg_t   m_battery_sim_cfg;                 \/**< Battery Level sensor simulator configuration. *\/$/;"	v	file:
+m_battery_sim_state	./main.c	/^static sensorsim_state_t m_battery_sim_state;               \/**< Battery Level sensor simulator state. *\/$/;"	v	file:
+m_battery_timer_id	./main.c	/^APP_TIMER_DEF(m_battery_timer_id);                          \/**< Battery timer. *\/$/;"	v
+m_caps_off_key_scan_str	./main.c	/^static uint8_t m_caps_off_key_scan_str[] = \/**< Key pattern to be sent when the output report has been written with the CAPS LOCK bit cleared. *\/$/;"	v	file:
+m_caps_on	./main.c	/^static bool         m_caps_on = false;                      \/**< Variable to indicate if Caps Lock is turned on. *\/$/;"	v	file:
+m_caps_on_key_scan_str	./main.c	/^static uint8_t m_caps_on_key_scan_str[] = \/**< Key pattern to be sent when the output report has been written with the CAPS LOCK bit set. *\/$/;"	v	file:
+m_conn_handle	./main.c	/^static uint16_t   m_conn_handle  = BLE_CONN_HANDLE_INVALID; \/**< Handle of the current connection. *\/$/;"	v	file:
+m_hids	./main.c	/^static ble_hids_t m_hids;                                   \/**< Structure used to identify the HID service. *\/$/;"	v	file:
+m_in_boot_mode	./main.c	/^static bool       m_in_boot_mode = false;                   \/**< Current protocol mode. *\/$/;"	v	file:
+m_is_wl_changed	./main.c	/^static bool           m_is_wl_changed;                                      \/**< Indicates if the whitelist has been changed since last time it has been updated in the Peer Manager. *\/$/;"	v	file:
+m_peer_id	./main.c	/^static pm_peer_id_t m_peer_id;                              \/**< Device reference handle to the current bonded central. *\/$/;"	v	file:
+m_sample_key_press_scan_str	./main.c	/^static uint8_t m_sample_key_press_scan_str[] = \/**< Key pattern to be sent when the key press button has been pushed. *\/$/;"	v	file:
+m_whitelist_peer_cnt	./main.c	/^static uint32_t       m_whitelist_peer_cnt;                                 \/**< Number of peers currently in the whitelist. *\/$/;"	v	file:
+m_whitelist_peers	./main.c	/^static pm_peer_id_t   m_whitelist_peers[BLE_GAP_WHITELIST_ADDR_MAX_COUNT];  \/**< List of peers currently in the whitelist. *\/$/;"	v	file:
+main	./main.c	/^int main(void)$/;"	f
+on_adv_evt	./main.c	/^static void on_adv_evt(ble_adv_evt_t ble_adv_evt)$/;"	f	file:
+on_ble_evt	./main.c	/^static void on_ble_evt(ble_evt_t * p_ble_evt)$/;"	f	file:
+on_hid_rep_char_write	./main.c	/^static void on_hid_rep_char_write(ble_hids_evt_t * p_evt)$/;"	f	file:
+on_hids_evt	./main.c	/^static void on_hids_evt(ble_hids_t * p_hids, ble_hids_evt_t * p_evt)$/;"	f	file:
+p_data	./main.c	/^    uint8_t    * p_data;      \/**< Scanned key pattern *\/$/;"	m	struct:hid_key_buffer	file:
+p_instance	./main.c	/^    ble_hids_t * p_instance;  \/**< Identifies peer and service instance *\/$/;"	m	struct:hid_key_buffer	file:
+peer_list_get	./main.c	/^static void peer_list_get(pm_peer_id_t * p_peers, uint32_t * p_size)$/;"	f	file:
+peer_manager_init	./main.c	/^static void peer_manager_init(bool erase_bonds)$/;"	f	file:
+pm_evt_handler	./main.c	/^static void pm_evt_handler(pm_evt_t const * p_evt)$/;"	f	file:
+power_manage	./main.c	/^static void power_manage(void)$/;"	f	file:
+rp	./main.c	/^    uint8_t        rp;                         \/**< Index to the read location *\/$/;"	m	struct:__anon2	file:
+scheduler_init	./main.c	/^static void scheduler_init(void)$/;"	f	file:
+send_key_scan_press_release	./main.c	/^static uint32_t send_key_scan_press_release(ble_hids_t * p_hids,$/;"	f	file:
+sensor_simulator_init	./main.c	/^static void sensor_simulator_init(void)$/;"	f	file:
+service_error_handler	./main.c	/^static void service_error_handler(uint32_t nrf_error)$/;"	f	file:
+services_init	./main.c	/^static void services_init(void)$/;"	f	file:
+sleep_mode_enter	./main.c	/^static void sleep_mode_enter(void)$/;"	f	file:
+sys_evt_dispatch	./main.c	/^static void sys_evt_dispatch(uint32_t sys_evt)$/;"	f	file:
+timers_init	./main.c	/^static void timers_init(void)$/;"	f	file:
+timers_start	./main.c	/^static void timers_start(void)$/;"	f	file:
+wp	./main.c	/^    uint8_t        wp;                         \/**< Index to write location *\/$/;"	m	struct:__anon2	file:
