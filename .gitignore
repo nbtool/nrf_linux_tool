@@ -1,3 +1,5 @@
 tool/gcc-arm-none-eabi-5_4-2016q3
 tool/nRF5x-Command-Line-Tools_9_7_3
 sdk/nRF5_SDK_12.3.0_d7731ad
+tags
+_build

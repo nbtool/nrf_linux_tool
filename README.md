@@ -21,7 +21,7 @@ Build the project(for example:app_nrf51_hids_keyboard):
 Install the APP:
 
     make erase
-    make flash_flash_softdevice
+    make flash_flash_softdevice   //for no softdevice project, no need to do this command(peri project)
     make flash
 	
 
@@ -31,6 +31,8 @@ Install the APP:
 #### 3. Demos
 
 - app_nrf51_peri_blinky
+- app_nrf51_peri_uart
+- app_nrf51_peri_double_uart
 - app_nrf51_ble_hrs
 - app_nrf51_hids_mouse
 - app_nrf51_hids_keyboard
