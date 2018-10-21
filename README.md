@@ -21,7 +21,7 @@ Build the project(for example:app_nrf51_hids_keyboard):
 Install the APP:
 
     make erase
-    make flash_flash_softdevice
+    make flash_softdevice
     make flash
 	
 
