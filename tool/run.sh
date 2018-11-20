@@ -77,7 +77,7 @@ function install_nrf5_sdk_15_2_0(){
     echo "> update the *.posix file, when the project root is changed ..."
     t_arm_gcc_path=`pwd`/gcc-arm-none-eabi-5_4-2016q3
     posix_file=$NRF5_SDK_15_2_0_PATH"/components/toolchain/gcc/Makefile.posix"
-    echo "GNU_INSTALL_ROOT := $t_arm_gcc_path" > $posix_file
+    echo "GNU_INSTALL_ROOT := $t_arm_gcc_path/bin/" > $posix_file
     echo "GNU_VERSION := 5.4.1" >> $posix_file
     echo "GNU_PREFIX := arm-none-eabi" >> $posix_file   
 }
