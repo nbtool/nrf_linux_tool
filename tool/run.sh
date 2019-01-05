@@ -7,14 +7,14 @@ TOOLS_PATH=$PROJECT_ROOT/tool
 SDK_PATH=$PROJECT_ROOT/sdk
 
 ARM_GCC_PATH=$TOOLS_PATH/gcc-arm-none-eabi-5_4-2016q3
-NRF5X_COMMAND_LINE_PATH=$TOOLS_PATH/nRF5x-Command-Line-Tools_9_7_3
+NRF5X_COMMAND_LINE_PATH=$TOOLS_PATH/nRF5x-Command-Line-Tools_9_8_1
 NRF5_SDK_12_3_0_PATH=$SDK_PATH/nRF5_SDK_12.3.0_d7731ad 
 NRF5_SDK_15_2_0_PATH=$SDK_PATH/nRF5_SDK_15.2.0_9412b96
 
 ARM_GCC_LINK=https://launchpad.net/gcc-arm-embedded/5.0/5-2016-q3-update/+download/gcc-arm-none-eabi-5_4-2016q3-20160926-linux.tar.bz2
-NRF5X_COMMAND_LINE_LINK=https://www.nordicsemi.com/eng/nordic/download_resource/51392/29/85293435/94917
-NRF5_SDK_12_3_0_LINK=https://www.nordicsemi.com/eng/nordic/download_resource/54291/56/91735559/32925
-NRF5_SDK_15_2_0_LINK=https://www.nordicsemi.com/eng/nordic/download_resource/59012/94/74606268/116085
+NRF5X_COMMAND_LINE_LINK=https://www.nordicsemi.com/-/media/Software-and-other-downloads/Desktop-software/nRF5-command-line-tools/sw/nRF-Command-Line-Tools_9_8_1_Linux-x86_64.tar
+NRF5_SDK_12_3_0_LINK=http://developer.nordicsemi.com/nRF5_SDK/nRF5_SDK_v12.x.x/nRF5_SDK_12.3.0_d7731ad.zip
+NRF5_SDK_15_2_0_LINK=http://developer.nordicsemi.com/nRF5_SDK/nRF5_SDK_v15.x.x/nRF5_SDK_15.2.0_9412b96.zip
 
 #--------------------------------------------------------------------------
 function install_arm_gcc(){
